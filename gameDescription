@@ -1,0 +1,16 @@
+This game uses opencv, and haar cascade classifiers to detect the face.
+Blue rectangle demons fall down and the player MUST AVOID the demons. Two red rectangle demons lurk in the corners, menacingly.
+Do not let the blue demons touch your face!
+First blue demon falls slowly, making the game start off easier. The demons begin to fall more quickly, increasing difficulty.
+Player starts with score of 0: Each demon you avoid is worth 5 points.
+"GAME OVER" will display in red on the screen if a demon catches your face!
+At any time, press 'q' to quit.
+
+
+Technical details:
+This program uses opencv for face detection, webcam input, general image processing, and to draw rectangles.
+Haar cascade classifier is used in particular for face detection, compatible XML file was easy to integrate.
+Numpy is used for array operations and calculating differences.
+Time library is used for games pace, Random is used randomize demon positions.
+Download raw file, save, and hop in your terminal and enter "python mirror.py"
+ENJOY!!
